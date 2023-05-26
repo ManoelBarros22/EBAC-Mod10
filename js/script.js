@@ -45,6 +45,8 @@ $(document).ready(function() {
     $('.lista-veiculos button').click(function() {
         const destino = $('#contato');
 
+        alert($(this).parent().find('h3').text());
+
         $('html').animate({
             scrolltop: destino.offset().top
         }, 1000)
