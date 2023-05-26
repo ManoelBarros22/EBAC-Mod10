@@ -28,8 +28,7 @@ header {     /* Mantém o header "visível na rolagem"*/
     z-index: 1;
 }
 
-header > .container,
-footer > .container {
+header > .container {
     justify-content: space-between;
     align-items: center;
     padding-bottom: 16px;
@@ -50,32 +49,15 @@ nav li {
    text-transform: uppercase;
 }
 
-nav li a {
-    color: #fff;
-    text-decoration: none;
-}
 
-.menu-hamburguer {
-    width: 32px;
-    cursor: pointer;
-}
 
-.menu-hamburguer span {
-    height: 2px;
-    width: 100%;
-    background-color: #fff;
-    display: block;
-    margin-bottom: 4px;
-}
+
 
 .container-flex {
     display: flex;
 }
 
-#sobre-a-loja img {
-    max-width: 400px;
-    margin-right: 24px;
-}
+
 
 section {
     padding: 40px 0;
@@ -85,27 +67,9 @@ section h2 {
     margin-bottom: 16px;
 }
 
-.lista-veiculos {
-    flex-wrap: wrap;
-}
 
-.lista-veiculos li {    
-    list-style: none;
-    max-width: 30%;
-    margin-bottom: 24px;
-}
 
-.lista-veiculos li img {
-    max-width: 100%;   
-}
 
-.lista-veiculos li h3 {
-    margin: 16px 0;
-}
-
-.item-central {
-    margin: 0 5%;
-}
 
 button {
    display: block;
@@ -121,15 +85,7 @@ button {
    border-radius: 6px;
 }
 
-.price {
-    margin: 16px 0;
-    display: block;
-}
 
-.price del {
-    color: #ccc;
-    font-size: 14px;
-}
 
 .form-campo {
     margin-bottom: 16px;
@@ -140,16 +96,10 @@ button {
     display: block;
 }
 
-.form-campo input,
-.form-campo textarea {
+.form-campo input {
     width: 100%;
     display: block;
     padding: 8px;
-}
-
-.form-campo textarea {
-    resize: none;
-    height: 120px;
 }
 
 form {
@@ -160,12 +110,8 @@ form button {
     max-width: 120px;
 }
 
-footer li {
-    list-style: none;
-    margin-left: 16px;
-}
-
-footer li img {
-    height: 32px;
+#endcep {
+    display:flex; 
+    max-width: 1024px; 
 }
 

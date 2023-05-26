@@ -1,35 +1,38 @@
 $(document).ready(function() {
-    $('#carrossel-imagens').slick({
-        autoplay: true,
-    });
 
-    $('.menu-hamburguer').click(function() {
-        $('nav').slideToggle();
-    })
 
-    $('#Telefone').mask('(00) 00000-0000')
+    $('#Telefone').mask('(00) 00000-0000');
         
     $('form').validate({
        rules: {
             nome: {
                 required: true
             },
-            email: {
-                required: true,
-                email: true
-            },
             telefone: {
                 required: true
+            },            
+            email: {
+                required: true
             },
-            mensagem: {
-                required:true,
+           cpf: {
+                required: true
+           },
+            endereco: {
+                required: true
             },
-            veiculoDeInteresse: {
-                required: false,
+            cep: {
+                required:true
             }
+         
        },
        messages:{
-            nome: 'Por favor, insira o seu nome'
+            nome: 'Campo obrigatório',
+            telefone: 'Campo obrigatório',
+            email: 'Campo obrigatório',
+            cpf: 'Campo obrigatório',
+            endereco: 'Campo obrigatório',
+            cep: 'Campo obrigatório'
+
        },
        submitHandler: function(form) {
             console.log(form) 
