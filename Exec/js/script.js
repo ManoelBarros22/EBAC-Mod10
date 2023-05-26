@@ -44,9 +44,6 @@ $(document).ready(function() {
 
     $('.lista-veiculos button').click(function() {
         const destino = $('#contato');
-        const nomeVeiculo = $(this).parent().find('h3').text();
-
-        $('#veiculo-interesse').val(nomeVeiculo);  // atribui valor em input
 
         $('html').animate({
             scrolltop: destino.offset().top
