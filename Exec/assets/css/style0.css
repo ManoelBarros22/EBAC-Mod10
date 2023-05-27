@@ -34,30 +34,9 @@ header > .container {
     padding-bottom: 16px;
 }
 
-nav {
-    background-color: #575fcf;
-    padding: 16px 0;
-    display: none;
-}
-
-nav li {
-   list-style: none;
-   display: inline;
-   margin-right: 16px;
-   font-size: 18px;
-   font-weight: bold;
-   text-transform: uppercase;
-}
-
-
-
-
-
 .container-flex {
     display: flex;
 }
-
-
 
 section {
     padding: 40px 0;
@@ -66,10 +45,6 @@ section {
 section h2 {
     margin-bottom: 16px;
 }
-
-
-
-
 
 button {
    display: block;
@@ -97,7 +72,7 @@ button {
 }
 
 .form-campo input {
-    width: 100%;
+    width: 50%;
     display: block;
     padding: 8px;
 }
@@ -111,7 +86,9 @@ form button {
 }
 
 #endcep {
+    align-items: center;
     display:flex; 
     max-width: 1024px; 
+    margin-left: 50px;
 }
 

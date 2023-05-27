@@ -12,7 +12,8 @@ $(document).ready(function() {
                 required: true
             },            
             email: {
-                required: true
+                required: true,
+                email: true
             },
            cpf: {
                 required: true
@@ -28,7 +29,7 @@ $(document).ready(function() {
        messages:{
             nome: 'Campo obrigatório',
             telefone: 'Campo obrigatório',
-            email: 'Campo obrigatório',
+            email: 'Informe e-mail válido',
             cpf: 'Campo obrigatório',
             endereco: 'Campo obrigatório',
             cep: 'Campo obrigatório'
@@ -53,6 +54,5 @@ $(document).ready(function() {
         }, 1000)
     })   
   })
-  
   
   
