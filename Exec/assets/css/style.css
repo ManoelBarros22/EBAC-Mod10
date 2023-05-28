@@ -9,13 +9,29 @@
    
     font-family: sans-serif;
     color: #0099ffd3;
-    margin-left: 10%;
+    margin-left: 1%;
 } 
 
 
 
 #check{
     display: inline-block;
+}
+
+#primeiro {
+    display: flex;
+  
+}
+
+.telefone {
+    margin-left: 50px;
+}
+#segundo {
+    display: flex;
+}
+
+#terceiro {
+    display: flex;
 }
 
 
